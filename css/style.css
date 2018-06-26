@@ -1,0 +1,57 @@
+body{
+  background:url("https://images.unsplash.com/photo-1504892696418-8f151d7092eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a24c4783da833475006b6a7dfbdf301d&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+li{
+  list-style:none;
+  border:1px solid;
+  border-radius:10%;
+  padding:2%;
+  margin:1%;
+  box-shadow: 0px 0px 20px  0px  lightblue;
+}
+.photo{
+  width:40%;
+  height:40%;
+  border:0px solid;
+  border-radius:10%;
+  opacity: 0.3;
+  cursor:pointer;
+}
+.photo:active{
+  opacity: 1;
+}
+.name{
+  font-family: 'Bad Script', cursive;
+  font-size:20px;
+
+}
+.start{
+  font-family: 'Pangolin', cursive;
+}
+p{
+  font-family: 'Underdog', cursive;
+  font-weight:bold;
+}
+.citaty{
+  font-family: 'Underdog', cursive;
+  margin-top:3%;
+  margin-bottom:2%;
+}
+.name:active{
+ color:red; 
+}
+.instagram-media{
+  width:560px;
+  height:315px;
+}
+.videos{
+  display:flex;
+  margin-bottom:2%;
+  border:5px inset lightgrey;
+  box-shadow: inset 0px 0px 80px 0px; 
+  border-radius:2%;
+}
+

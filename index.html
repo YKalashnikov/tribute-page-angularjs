@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tribute Page with Angular JS</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?
+family=Amatic+SC|Marck+Script" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="text-center container" ng-app="app" ng-controller="controller1">
+  <h1 class="start">{{bodrov.heading}}</h1>
+  <h3 class="start">{{bodrov.subheading}}</h3>
+  <img class="photo" ng-src="{{bodrov.imgURL}}" />
+  <h3 class="citaty">{{bodrov.subheading2}}</h3>
+  <ul ng-repeat="quote in quotes">
+    <li class="name">{{quote.quote}}</li>
+  </ul>
+  <div class="videos">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yt2fOTuGMxc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZkm9ePj4kh/" data-instgrm-version="8" </blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
+  </div>
+  <p class="last">{{bodrov.subheading3}}</p>
+  <a ng-href="https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B4%D1%80%D0%BE%D0%B2,_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87" target="blank"><p>Сeргей Бодров</p></a>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
